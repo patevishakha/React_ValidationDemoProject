@@ -1,0 +1,66 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 25vh;
+    left: 10%;
+    width: 70%;
+    min-width: 40%;
+    z-index: 100;
+    overflow: hidden;
+    padding: 1rem;
+    background-color: darkgray;
+    border-radius: 1rem;
+  }
+  
+  .header {
+    background: #4f005f;
+    padding: 1rem;
+    text-align: center;
+    color:white;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white;
+    
+  }
+  
+  .content {
+    background-color:white;
+    padding: 1rem;
+    font-size: 30px;
+  }
+  
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color:white;
+  }
+
+.actions .btn{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    color:white;
+    padding: 1rem;
+    background-color: rgb(173, 19, 45);
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.actions .btn:hover{
+    background-color: rgb(40, 153, 106);
+    border: 3px solid darkgreen;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,100 @@
+.main-box{
+
+    height: 100%;
+    width: 100%;
+    margin: 2rem,auto;
+    padding: 1%;
+}
+
+.box1{
+
+    width: 70%;
+    height: 300px;
+    max-height: 300px;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: rgb(243, 243, 240);
+    box-shadow: rgb(136, 136, 102);
+    border: 1px solid white;
+    border-radius: 4rem;
+   
+}
+
+.box1 label{
+    display: block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+
+}
+
+.box1 input{
+    display: block;
+    margin-top: 1rem;
+    width: 70%;
+    height: 25px;
+    max-height: 30px;
+    border-radius: 6px;
+    border: 1px solid rgb(9, 243, 243);
+    box-shadow: 0px  5px 10px 5px rgba(51, 104, 83, 0.4);
+    
+}
+
+.box1 input:focus{
+    outline: none !important;
+    border: 3px solid rgb(116, 182, 116);
+    height: 30px;
+}
+
+.btn{
+    margin-left: 6rem;
+    margin-top: 1.3rem;
+    
+}
+
+.btn button{
+    padding-top:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    background-color: rgb(87, 221, 87);
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+
+}
+
+@media (min-width : 500px){
+
+    .btn button:hover{
+        cursor: pointer;
+        background-color: blue;
+        border: 2px solid darkblue;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        box-shadow: 0px  5px 10px 5px rgba(51, 104, 83, 0.6);
+    }
+
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: black;
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 0px  5px 10px 5px rgba(51, 104, 83, 0.5);
+}
+
+.error-class{
+    position: fixed;
+    width: 40%;
+    padding: 5rem;
+    margin: 5rem,auto;
+    height: 60px;
+    background-color: rosybrown;
+}
